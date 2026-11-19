@@ -1,0 +1,22 @@
+{
+  "name": "discord-verify-bot",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Standalone Discord OAuth2 verification bot: Verify button, role swap, and moderation log.",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.1",
+    "dotenv": "^16.4.5",
+    "express": "^5.3.0"
+  }
+}
